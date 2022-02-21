@@ -129,7 +129,7 @@ function showTv(el){
 }
 
 //addeventlistener for form
-form.addEventListener ('click', async e =>
+form.addEventListener ('keyup', async e =>
 {
     e.preventDefault();
 main.textContent="";
@@ -145,7 +145,7 @@ main.textContent="";
            }
          
        })
-    form.elements.query.value = "";
+   
 });
 //add eventlistener click for select
 select.addEventListener ('click', async e =>
