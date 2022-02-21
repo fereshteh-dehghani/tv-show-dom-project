@@ -31,18 +31,12 @@ input.style.width="70%";
 input.style.height="30px";
 
 input.setAttribute('name','query')
-const submit=document.createElement('input');
 //set attribute type of input
-
-submit.setAttribute('type','submit');
-submit.setAttribute('value','Search');
-submit.style.width='30%';
-submit.style.height='30px';
+input.setAttribute('placeholder',`Search`)
 //set attribute id for input
 input.setAttribute('id','searchbox');
 //input appendchild into header
 form.appendChild(input);
-form.appendChild(submit);
    //create main element:
    const main=document.createElement('main');
    //add class container-grid to main

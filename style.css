@@ -31,7 +31,19 @@ margin: auto;
 
 }
 
+input{
+  background-color: rgb(35, 47, 47);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  color: azure;
+  float: right;
+  width:10px;
+  margin-right: 5%;
 
+}
 .image {
     opacity: 1;
     width: 100%;
